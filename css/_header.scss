@@ -38,7 +38,6 @@
     padding-top: 47px;
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
-    font-weight: 400;
   }
 
   &__nav a {
@@ -47,6 +46,7 @@
     text-decoration: none;
     padding: 5px 10px;
     color: #212832;
+    font-weight: 400;
 
     &:hover {
       color: #DF6951;
@@ -63,31 +63,35 @@
     }
   }
 
-  &__buttons select {
-    border: none;
-    background: rgba(0, 0, 0, 0);
+  &__buttons {
+    font-weight: 500;
 
-    &:focus {
-      outline: none;
+    & select {
+      border: none;
+      background: rgba(0, 0, 0, 0);
+
+      &:focus {
+        outline: none;
+      }
     }
-  }
 
-  &__buttons a {
-    margin: 0 25px;
-    text-decoration: none;
-    padding: 5px 15px;
-    color: #212832;
-    border: 1px solid rgb(0, 0, 0, 0);
-    border-radius: 5px;
-
-    &:hover {
-      transition: .5s;
-      border: 1px solid #212832;
+    & a {
+      margin: 0 25px;
+      text-decoration: none;
+      padding: 5px 15px;
+      color: #212832;
+      border: 1px solid rgb(0, 0, 0, 0);
       border-radius: 5px;
-    }
 
-    &:first-child {
-      margin-left: 0;
+      &:hover {
+        transition: .5s;
+        border: 1px solid #212832;
+        border-radius: 5px;
+      }
+
+      &:first-child {
+        margin-left: 0;
+      }
     }
   }
 
