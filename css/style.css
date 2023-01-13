@@ -1,8 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@500;700&family=Volkhov:wght@700&display=swap");
-body {
-  position: relative;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;500;600&family=Poppins:wght@400;500;600;700&family=Volkhov:wght@700&display=swap");
 .header {
   width: 1200px;
   margin: 0 auto;
@@ -17,10 +13,8 @@ body {
   position: absolute;
   background-image: url("../img/decore.png");
   background-repeat: no-repeat;
-  background-position: right;
-  right: 0;
-  top: -45%;
-  width: 100%;
+  background-position: right top;
+  width: 1440px;
   height: 100%;
   z-index: -1;
 }
@@ -29,8 +23,7 @@ body {
   position: absolute;
   background-image: url("../img/ellipse.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left;
+  background-size: contain;
   top: -40%;
   left: 0;
   width: 100%;
@@ -92,10 +85,10 @@ body {
   margin-top: 130px;
 }
 .header__content h2 {
-  color: #DF6951;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 700;
+  color: #DF6951;
 }
 .header__content h1 {
   font-family: "Volkhov", serif;
@@ -671,6 +664,10 @@ body {
   font-weight: 500;
   font-size: 14px;
   color: #5E6282;
+}
+
+body {
+  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */
