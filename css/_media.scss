@@ -1,0 +1,280 @@
+@media (min-width: 320px) and (max-width: 478px) {
+  .header {
+    background: none;
+    margin-bottom: 80px;
+
+    &__top {
+      font-size: 30px;
+    }
+
+    &__nav a {
+      margin: 0;
+    }
+
+    &__buttons a {
+      margin: 0;
+    }
+
+    &__content {
+      width: 100%;
+      margin-top: 80px;
+
+      & h2 {
+        font-size: 40px;
+      }
+
+      & h1 {
+        font-size: 112px;
+      }
+
+      & p {
+        font-size: 30px;
+      }
+    }
+
+    &__btn {
+
+      &-findoutmore {
+        font-size: 30px;
+      }
+
+      &-play {
+        font-size: 30px;
+      }
+    }
+
+    &__plane-img-1 {
+      display: none;
+    }
+
+    &__plane-img-2 {
+      display: none;
+    }
+  }
+
+  .category {
+    & h3 {
+      font-size: 30px;
+    }
+
+    & h2 {
+      font-size: 80px;
+    }
+
+    &__services {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 0;
+    }
+
+    &__service {
+      width: 90%;
+      margin: 0 0 80px 0;
+
+      & div img {
+        transform: scale(2);
+      }
+
+      & h4 {
+        font-size: 40px;
+      }
+
+      & p {
+        font-size: 32px;
+      }
+    }
+  }
+
+  .destinations {
+
+    & h3 {
+      font-size: 30px;
+    }
+
+    & h2 {
+      font-size: 80px;
+    }
+
+    &__cards {
+      flex-direction: column;
+      align-items: center;
+      background: none;
+      margin-bottom: 80px;
+    }
+
+    &__card {
+      width: 90%;
+      margin: 0 0 80px 0;
+
+      &-img {
+        width: 100%;
+        background-position: 50% 50%;
+      }
+
+      &-location {
+
+        & h4 {
+          font-size: 38px;
+        }
+
+        & span {
+          font-size: 38px;
+        }
+      }
+
+      &-duration {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .booking {
+    flex-direction: column;
+    background: none;
+    margin-bottom: 280px;
+
+    &__info {
+
+      & h3 {
+        font-size: 30px;
+      }
+
+      & h2 {
+        font-size: 80px;
+      }
+    }
+
+    &__item {
+
+      &-img img {
+        width: 100px;
+      }
+
+      &-description {
+
+        & p {
+          font-size: 32px;
+        }
+
+        & h4 {
+          font-size: 40px;
+        }
+      }
+
+      &:last-child {
+        margin-bottom: 220px;
+      }
+    }
+
+    &__card {
+      transform: scale(2);
+    }
+  }
+
+  .testimonials {
+    flex-direction: column;
+
+    &__headers {
+      width: 100%;
+      margin-bottom: 80px;
+
+      & h3 {
+        font-size: 30px;
+      }
+
+      & h2 {
+        font-size: 80px;
+      }
+    }
+
+    &__message {
+      width: 90%;
+      margin: 0 auto;
+
+      & p {
+        font-size: 32px;
+      }
+
+      & h4 {
+        font-size: 40px;
+      }
+
+      & span {
+        font-size: 26px;
+      }
+    }
+  }
+  .sponsors {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    & div {
+      width: 100%;
+      height: 200px;
+      margin-bottom: 50px;
+    }
+
+    & div img {
+      width: 300px;
+    }
+  }
+
+  .subscribe {
+
+    &-container {
+
+      & h2 {
+        font-size: 40px;
+      }
+
+      & form input {
+        font-size: 30px;
+      }
+
+      & form button {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .footer {
+    &__text {
+
+      & h2 {
+        font-size: 60px;
+      }
+
+      & p {
+        font-size: 26px;
+      }
+    }
+
+    & h3 {
+      font-size: 28px;
+    }
+
+    & div ul li a {
+      font-size: 24px;
+    }
+
+    &__last-column {
+
+      & div img {
+        transform: scale(1.5);
+
+      }
+
+      & h4 {
+        font-size: 30px;
+      }
+
+      & img {
+        margin: 0 20px;
+      }
+    }
+
+    &__rights {
+      font-size: 24px;
+    }
+  }
+}

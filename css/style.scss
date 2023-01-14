@@ -1,9 +1,17 @@
 @import "header";
 @import "main";
 @import "footer";
+@import "media";
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;500;600&family=Poppins:wght@400;500;600;700&family=Volkhov:wght@700&display=swap');
 
-body {
+.container {
   position: relative;
+  width: 1440px;
+  margin: 0 auto;
+  padding-right: 120px;
+  padding-left: 120px;
+  background-image: url("../img/decore.png");
+  background-repeat: no-repeat;
+  background-position: 100% 0;
 }
